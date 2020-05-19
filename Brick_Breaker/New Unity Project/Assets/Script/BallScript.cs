@@ -8,7 +8,8 @@ public class BallScript : MonoBehaviour
     public bool inPlay; // ture - moving around . false - ball to be on paddle.
     public Transform paddle;
     public float speed;
-
+    public Transform explosion;
+    public GameManager gm;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,10 @@ public class BallScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (gm.gameOver)
+        {
+            return;
+        }
         if (!inPlay) //if false..
         {
             transform.position = paddle.position;
@@ -40,8 +45,22 @@ public class BallScript : MonoBehaviour
            
             rb.velocity = Vector2.zero; //kill momentom of the object.
             inPlay = false; //will starts the ball follow the paddle;
+            gm.UpdatrLives(-1);
 
+        }
+    }
+    //When the ball hits the Collision2D that are not a trigger.
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        // in OnCollisionEnter2D Collision2D dont have CompareTag, but other.transform have..
+        if (other.transform.CompareTag("brick"))
+        {
+            Transform newExplosion = Instantiate(explosion, other.transform.position, other.transform.rotation);
+            Destroy(newExplosion.gameObject, 2.5f);
 
+            gm.UpdateScore(other.gameObject.GetComponent<BrickScript>().points);
+
+            Destroy(other.gameObject);
         }
     }
 }
