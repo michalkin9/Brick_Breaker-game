@@ -67,7 +67,7 @@ public class BallScript : MonoBehaviour
             else
             {
                 int randomChance = Random.Range(1, 101); // picks number between 1 and 100
-                if (randomChance < 50)
+                if (randomChance < 35)
                 {
                     Instantiate(powerUp, other.transform.position, other.transform.rotation);
                 }
