@@ -270,6 +270,7 @@ MonoBehaviour:
   ScoreText: {fileID: 647756857}
   gameOver: 0
   gameOverPanel: {fileID: 371823207}
+  numberOfBricks: 0
 --- !u!4 &171653162
 Transform:
   m_ObjectHideFlags: 0
@@ -1589,6 +1590,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bricks level 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224603191207719616, guid: 90eca75a1ec342d4787c26865c8309f4,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4224603191207719619, guid: 90eca75a1ec342d4787c26865c8309f4,
         type: 3}

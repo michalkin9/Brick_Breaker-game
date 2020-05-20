@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public Text ScoreText;
     public bool gameOver = false; //is still playing or not
     public GameObject gameOverPanel;
+    public int numberOfBricks;
 
 
     // Start is called before the first frame update
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
     {
         livesText.text = "Lives: " + lives;
         ScoreText.text = "Score: " + score;
+        numberOfBricks = GameObject.FindGameObjectsWithTag("brick").Length; 
     }
 
     // Update is called once per frame
@@ -44,6 +46,17 @@ public class GameManager : MonoBehaviour
         ScoreText.text = "Score: " + score;
 
     }
+
+    public void upDateNumberOfBricks()
+    {
+        numberOfBricks--; 
+        if(numberOfBricks <= 0)
+        {
+            GameOver();
+        }
+    }
+
+
     void GameOver()
     {
         gameOver = true; //game is now over
