@@ -9,6 +9,8 @@ public class BallScript : MonoBehaviour
     public Transform paddle;
     public float speed;
     public Transform explosion;
+    public Transform powerUp;
+
     public GameManager gm;
     // Start is called before the first frame update
     void Start()
@@ -55,10 +57,22 @@ public class BallScript : MonoBehaviour
         // in OnCollisionEnter2D Collision2D dont have CompareTag, but other.transform have..
         if (other.transform.CompareTag("brick"))
         {
+            BrickScript brickScript = other.gameObject.GetComponent<BrickScript>();
+            if (brickScript.hitsToBreak > 1)
+            {
+
+            }
+
+            int randomChance = Random.Range(1, 101); // picks number between 1 and 100
+            if(randomChance < 50)
+            {
+                Instantiate(powerUp, other.transform.position, other.transform.rotation);
+            }
+
             Transform newExplosion = Instantiate(explosion, other.transform.position, other.transform.rotation);
             Destroy(newExplosion.gameObject, 2.5f);
 
-            gm.UpdateScore(other.gameObject.GetComponent<BrickScript>().points);
+            gm.UpdateScore(brickScript.points);
 
             Destroy(other.gameObject);
         }

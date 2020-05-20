@@ -33,4 +33,14 @@ public class PaddleScript : MonoBehaviour
             transform.position = new Vector2(5.5f, transform.position.y);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("extreLife"))
+        {
+            gm.UpdatrLives(1);
+            Destroy(collision.gameObject);
+        }
+
+    }
 }
