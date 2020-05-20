@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+using UnityEngine.UI;//for the text(cause ui)
+using UnityEngine.SceneManagement; 
 
 public class GameManager : MonoBehaviour
 {
@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     {
         
     }
-    public void UpdatrLives(int changeInLives)
+    public void UpdateLives(int changeInLives)
     {
         lives += changeInLives;
         // check for no lives left and trigger the end of the game

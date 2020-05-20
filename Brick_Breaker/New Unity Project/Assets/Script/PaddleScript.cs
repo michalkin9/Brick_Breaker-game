@@ -38,7 +38,7 @@ public class PaddleScript : MonoBehaviour
     {
         if (collision.CompareTag("extreLife"))
         {
-            gm.UpdatrLives(1);
+            gm.UpdateLives(1);
             Destroy(collision.gameObject);
         }
 

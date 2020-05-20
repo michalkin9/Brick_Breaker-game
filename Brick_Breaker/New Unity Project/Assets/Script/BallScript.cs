@@ -12,6 +12,8 @@ public class BallScript : MonoBehaviour
     public Transform powerUp;
 
     public GameManager gm;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,7 +49,7 @@ public class BallScript : MonoBehaviour
            
             rb.velocity = Vector2.zero; //kill momentom of the object.
             inPlay = false; //will starts the ball follow the paddle;
-            gm.UpdatrLives(-1);
+            gm.UpdateLives(-1);
 
         }
     }
