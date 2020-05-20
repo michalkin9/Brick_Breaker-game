@@ -19,8 +19,9 @@ public class PaddleScript : MonoBehaviour
     {
         if (gm.gameOver)
         {
-            return;
+            return; //stop paddle from moving the position
         }
+
         float horizontal = Input.GetAxis("Horizontal");
         transform.Translate(Vector2.right * horizontal * Time.deltaTime * speed);
 

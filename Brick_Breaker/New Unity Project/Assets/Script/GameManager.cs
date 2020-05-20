@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;//for the text(cause ui)
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement; // gives access to scene maeagmant 
 
 public class GameManager : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public int score;
     public Text livesText;
     public Text ScoreText;
-    public bool gameOver = false;
+    public bool gameOver = false; //is still playing or not
     public GameObject gameOverPanel;
 
 
@@ -46,13 +46,19 @@ public class GameManager : MonoBehaviour
     }
     void GameOver()
     {
-        gameOver = true;
+        gameOver = true; //game is now over
         gameOverPanel.SetActive(true);
     }
 
-    public void PlayAgain()
+    public void PlayAgain() //reload the game
     {
-        SceneManager.LoadScene("Scenes/main");
+        SceneManager.LoadScene("Scenes/main"); //Scenes/main
+    }
+
+    public void Quit()
+    {
+        Application.Quit(); //wont work in the editor. 
+        Debug.Log("Game Quit");
     }
 }
 
