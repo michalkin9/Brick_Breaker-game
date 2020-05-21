@@ -10,7 +10,7 @@ public class BallScript : MonoBehaviour
     public float speed;
     public Transform explosion;
     public Transform powerUp;
-
+    AudioSource audio;
     public GameManager gm;
 
 
@@ -18,8 +18,8 @@ public class BallScript : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); // get the rigid body reference
+        audio = GetComponent<AudioSource>();
 
-      
     }
 
     // Update is called once per frame
@@ -52,6 +52,7 @@ public class BallScript : MonoBehaviour
             gm.UpdateLives(-1);
 
         }
+       
     }
     //When the ball hits the Collision2D that are not a trigger.
     void OnCollisionEnter2D(Collision2D other)
@@ -79,8 +80,8 @@ public class BallScript : MonoBehaviour
                 gm.upDateNumberOfBricks(); 
                 Destroy(other.gameObject);
             }
+            audio.Play();
 
-    
         }
     }
 }
