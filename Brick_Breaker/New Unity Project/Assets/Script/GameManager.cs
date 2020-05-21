@@ -102,8 +102,8 @@ public class GameManager : MonoBehaviour
 
     public void Quit()
     {
-        Application.Quit(); //wont work in the editor. 
-        Debug.Log("Game Quit");
+        SceneManager.LoadScene("Scenes/Start Menu"); //go back to start menu
+
     }
 }
 

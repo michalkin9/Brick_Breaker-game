@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 105621962}
   - component: {fileID: 105621961}
   m_Layer: 5
-  m_Name: Text
+  m_Name: high score text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'New High score:'
+  m_Text: high score text
 --- !u!222 &105621962
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -346,6 +346,7 @@ MonoBehaviour:
   score: 0
   livesText: {fileID: 1241194513}
   ScoreText: {fileID: 647756857}
+  highScoreText: {fileID: 105621961}
   gameOver: 0
   gameOverPanel: {fileID: 371823207}
   loadLevelPanel: {fileID: 1336639333}
@@ -385,7 +386,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &371823208
 RectTransform:
   m_ObjectHideFlags: 0
