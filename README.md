@@ -20,6 +20,7 @@ Which level can you reach?
 
 ![](images/level2.jpeg)
 
+
 ![] (images/level3.jpeg)
 
 **About the code**
