@@ -11,11 +11,11 @@ You’re in control of a sliding platform that can bounce the wrecking balls int
 
 ![] (images/main.jpeg)
 
-[Find file](https://github.com/michalkin9/Brick_Breaker-game/find/master)Copy path)
 
 **How to play**
 Click Start Game to begin. Use your mouse to control the sliding platform. The ball will bounce in different directions based on where it hits the platform. Bricks need to be hit one to break.  Power ups may fall from bricks when they are broken. Collect them on the sliding platform. The game will end when you have lost balls to the abyss.
 Which level can you reach?
+
 ![] (images/level1.jpeg)
 
 ![](images/level2.jpeg)
