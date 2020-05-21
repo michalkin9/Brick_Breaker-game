@@ -31,3 +31,11 @@ Our code has the following elements:
 - 3 levels - difficulty level increases
 - Bricks - which are arranged differently at each level and when broken there is an animation of bricks breaking.
 - menu - You can restart the game at the menu or return to the game if you are disqualified. You will also be shown whether you have been able to pass your highest score.) **[start menu script](https://github.com/michalkin9/Brick_Breaker-game/blob/master/Brick_Breaker/New%20Unity%20Project/Assets/Script/startMenu.cs)**
+
+
+**about the levels**
+The execution of the transition between the stages is done by using the array : 
+public Transform[] levels; // contains all levels of the game 
+This can be seen in the code of the **[game maneger script](https://github.com/michalkin9/Brick_Breaker-game/blob/master/Brick_Breaker/New%20Unity%20Project/Assets/Script/GameManager.cs)**
+in the insector we chose the number of levels we want and chose the levels we wanted : 
+![](images/levels.jpeg)
