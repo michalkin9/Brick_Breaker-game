@@ -1,6 +1,6 @@
 #  Brick Breaker game
 
-![] [Brick_Breaker-game](https://github.com/michalkin9/Brick_Breaker-game)/[Brick_Breaker](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker)/[New Unity Project](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project)/[images](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project/images)/**2.jpeg**
+![](/[Brick_Breaker](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker)/[New Unity Project](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project)/[images](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project/images)/**2.jpeg**
 
 
 lets play !!! The game at the following link-
@@ -8,18 +8,18 @@ https://michaly.itch.io/brick-breaker
 
 **About**
 You’re in control of a sliding platform that can bounce the wrecking balls into the bricks above. Use angles and rebounds to control the direction the balls move. If the balls fall into the abyss below, you’ll lose a life. Don’t forget to make the most of your power ups to reach new high scores!
-![] (## [Brick_Breaker-game](https://github.com/michalkin9/Brick_Breaker-game)/[Brick_Breaker](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker)/[New Unity Project](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project)/[images](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project/images)/**main.jpeg**
+![] ([Brick_Breaker](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker)/[New Unity Project](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project)/[images](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project/images)/**main.jpeg**
 
 [Find file](https://github.com/michalkin9/Brick_Breaker-game/find/master)Copy path)
 
 **How to play**
 Click Start Game to begin. Use your mouse to control the sliding platform. The ball will bounce in different directions based on where it hits the platform. Bricks need to be hit one to break.  Power ups may fall from bricks when they are broken. Collect them on the sliding platform. The game will end when you have lost balls to the abyss.
 Which level can you reach?
-![] (## [Brick_Breaker-game](https://github.com/michalkin9/Brick_Breaker-game)/[Brick_Breaker](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker)/[New Unity Project](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project)/[images](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project/images)/**level1.jpeg**)
+![] (/[Brick_Breaker](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker)/[New Unity Project](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project)/[images](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project/images)/**level1.jpeg**)
 
-![](## [Brick_Breaker-game](https://github.com/michalkin9/Brick_Breaker-game)/[Brick_Breaker](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker)/[New Unity Project](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project)/[images](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project/images)/**level2.jpeg**)
+![](/[Brick_Breaker](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker)/[New Unity Project](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project)/[images](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project/images)/**level2.jpeg**)
 
-![] (## [Brick_Breaker-game](https://github.com/michalkin9/Brick_Breaker-game)/[Brick_Breaker](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker)/[New Unity Project](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project)/[images](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project/images)/**level3.jpeg**)
+![] (/[Brick_Breaker](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker)/[New Unity Project](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project)/[images](https://github.com/michalkin9/Brick_Breaker-game/tree/master/Brick_Breaker/New%20Unity%20Project/images)/**level3.jpeg**)
 
 **About the code**
 Our code has the following elements:
