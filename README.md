@@ -26,7 +26,7 @@ Which level can you reach?
 **About the code**
 Our code has the following elements:
 - audio - Background and sound music when the ball hits the bricks.
-- ball - Which works according to the laws of physics. **[ball script] (https://github.com/michalkin9/Brick_Breaker-game/blob/master/Brick_Breaker/New%20Unity%20Project/Assets/Script/BallScript.cs) **
+- ball - Which works according to the laws of physics. **[ball script](https://github.com/michalkin9/Brick_Breaker-game/blob/master/Brick_Breaker/New%20Unity%20Project/Assets/Script/BallScript.cs) **
 - sliding platform - that can be moved left and right and thus control where the ball will fly.
 - 3 levels - difficulty level increases
 - Bricks - which are arranged differently at each level and when broken there is an animation of bricks breaking.
