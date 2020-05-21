@@ -39,4 +39,6 @@ public Transform[] levels; // contains all levels of the game
 This can be seen in the code of the **[game maneger script](https://github.com/michalkin9/Brick_Breaker-game/blob/master/Brick_Breaker/New%20Unity%20Project/Assets/Script/GameManager.cs)**
 in the insector we chose the number of levels we want and chose the levels we wanted : 
 
-![](images/levels.jpeg)
+![](images/levels.jpg)
+
+Although we made the switch between the main menu and the screen itself by using "SceneManager.LoadScene".
